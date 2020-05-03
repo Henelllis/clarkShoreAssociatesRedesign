@@ -1,0 +1,15 @@
+.Header__container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 400px;
+  background: #346d7e;
+}
+
+.Header__text {
+  font-size: x-large;
+  color: #e1d7bc;
+  text-shadow: 1px 1px black;
+}

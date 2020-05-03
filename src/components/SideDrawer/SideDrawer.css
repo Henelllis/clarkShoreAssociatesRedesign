@@ -1,0 +1,9 @@
+.SideDrawer__container {
+  width: 15vw;
+  background-color: #e1d7bc;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  border-right: 1px hsla(0, 100%, 30%, 0.3) solid;
+}

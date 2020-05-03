@@ -1,0 +1,25 @@
+.Meeting {
+  flex: 10;
+  background-color: #d3c9ae;
+  width: 100vw;
+}
+
+.Meeting_image {
+  width: 100vw;
+  height: 300px;
+  opacity: 0.8;
+  background-image: url("./clark_shore_long.jpg");
+}
+
+.Meeting_image__text {
+  color: #346d7e;
+  text-shadow: 2px 2px wheat;
+  /* text-align: center; */
+  padding: none;
+  opacity: 1;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+  /* margin-right: 4em; */
+}

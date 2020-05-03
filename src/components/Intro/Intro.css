@@ -1,0 +1,43 @@
+.Intro{
+    height: 100vmin;
+    background-image: url('./hero_image.jpeg') ;
+    display: flex;
+    flex-direction: row;;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    /* opacity: .6; */
+    filter: saturate(3)
+}
+
+.Intro__header{
+    flex: 11;
+    margin: 2em;
+}
+
+
+
+.Intro__header_text{
+
+    /*wtf is hsl*/
+    color : white;
+    /* use this for embossing*/
+    /* text-shadow: -1px -1px 0 hsl(80, 70%, 35%),
+             -2px -2px 1px hsl(80, 70%, 35%);  */
+    /*Next advance Css techinque */
+    /*Add blurr shadiw dark shadow bottom
+     Soft Transition */
+    text-shadow: 0 0 2px #fff,
+             -1px -1px 0 hsl(80, 70%, 35%),
+             -2px -2px 1px hsl(80, 70%, 35%),
+             -2px -2px 2px hsl(80, 10%, 15%);
+    font-weight: bold;
+    font-size:xx-large;
+    width: 30vw;
+}
+
+.Intro__button{
+    flex: 1;
+    margin: 2em;
+}
